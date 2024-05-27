@@ -95,6 +95,10 @@ body{
     justify-content: center;
     margin-right: 5rem;
 }
+
+#left-right * {
+    margin: 0.2rem;
+}
 #right {
     display: flex;
     flex-direction: column;
