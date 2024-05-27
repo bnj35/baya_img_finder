@@ -37,18 +37,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 #container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: space-between;
     width: 100%;
     height: 100%;
-    gap:2rem
 }
 
 #left {
@@ -58,6 +55,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
+    margin-top: 3vh;
     font-family: var(--font);
 }
 
@@ -103,7 +101,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width:20%;
-    height: 100%;
+    margin-top: 3vh;
     padding: 1rem 2rem;
     background-color: var(--txt);
     color: var(--bg);
@@ -120,7 +118,6 @@ img{
 
 .title{
     font-size: 3rem;
-    /* border: blue 1px dashed; */
     width: 40%;
     margin-left: 10px;
 }
