@@ -35,13 +35,13 @@ printName();
 
 btnA.addEventListener('click', function() {
     if (text.length < 4) {
-        btnA.src = 'aiku/blanc/formes_blancs-07.png'
+        btnA.src = 'aiku/blanc/formes_blancs-03.png'
         text += 'A';
         printName();
     }
     else {
         reset();
-        btnA.src = 'aiku/blanc/formes_blancs-07.png'
+        btnA.src = 'aiku/blanc/formes_blancs-03.png'
         text = '';
         text += 'A';
         printName();
@@ -51,13 +51,13 @@ btnA.addEventListener('click', function() {
 
 btnB.addEventListener('click', function() {
     if (text.length < 4) {
-        btnB.src = 'aiku/blanc/formes_blancs-08.png'
+        btnB.src = 'aiku/blanc/formes_blancs-04.png'
         text += 'B';
         printName();
     }
     else {
         reset();
-        btnB.src = 'aiku/blanc/formes_blancs-08.png'
+        btnB.src = 'aiku/blanc/formes_blancs-04.png'
         text = '';
         text += 'B';
         printName();
@@ -66,13 +66,13 @@ btnB.addEventListener('click', function() {
 
 btnC.addEventListener('click', function() {
     if (text.length < 4) {
-        btnC.src = 'aiku/blanc/formes_blancs-09.png'
+        btnC.src = 'aiku/blanc/formes_blancs-05.png'
         text += 'C';
         printName();
     }
     else {
         reset();
-        btnC.src = 'aiku/blanc/formes_blancs-09.png'
+        btnC.src = 'aiku/blanc/formes_blancs-05.png'
         text = '';
         text += 'C';
         printName();
@@ -81,13 +81,13 @@ btnC.addEventListener('click', function() {
 
 btnD.addEventListener('click', function() {
     if (text.length < 4) {
-        btnD.src = 'aiku/blanc/formes_blancs-10.png'
+        btnD.src = 'aiku/blanc/formes_blancs-06.png'
         text += 'D';
         printName();
     }
     else {
         reset();
-        btnD.src = 'aiku/blanc/formes_blancs-10.png'
+        btnD.src = 'aiku/blanc/formes_blancs-06.png'
         text = '';
         text += 'D';
         printName();
@@ -96,13 +96,13 @@ btnD.addEventListener('click', function() {
 
 btnW.addEventListener('click', function() {
     if (text.length < 4) {
-        btnW.src = 'aiku/blanc/formes_blancs-03.png'
+        btnW.src = 'aiku/blanc/formes_blancs-08.png'
         text += 'W';
         printName();
     }
     else {
         reset();
-        btnW.src = 'aiku/blanc/formes_blancs-03.png'
+        btnW.src = 'aiku/blanc/formes_blancs-08.png'
         text = '';
         text += 'W';
         printName();
@@ -111,13 +111,13 @@ btnW.addEventListener('click', function() {
 
 btnX.addEventListener('click', function() {
     if (text.length < 4) {
-        btnX.src = 'aiku/blanc/formes_blancs-04.png'
+        btnX.src = 'aiku/blanc/formes_blancs-09.png'
         text += 'X';
         printName();
     }
     else {
         reset();
-        btnX.src = 'aiku/blanc/formes_blancs-04.png'
+        btnX.src = 'aiku/blanc/formes_blancs-09.png'
         text = '';
         text += 'X';
         printName();
@@ -126,13 +126,13 @@ btnX.addEventListener('click', function() {
 
 btnY.addEventListener('click', function() {
     if (text.length < 4) {
-        btnY.src = 'aiku/blanc/formes_blancs-05.png'
+        btnY.src = 'aiku/blanc/formes_blancs-10.png'
         text += 'Y';
         printName();
     }
     else {
         reset();
-        btnY.src = 'aiku/blanc/formes_blancs-05.png'
+        btnY.src = 'aiku/blanc/formes_blancs-10.png'
         text = '';
         text += 'Y';
         printName();
@@ -141,13 +141,13 @@ btnY.addEventListener('click', function() {
 
 btnZ.addEventListener('click', function() {
     if (text.length < 4) {
-        btnZ.src = 'aiku/blanc/formes_blancs-06.png'
+        btnZ.src = 'aiku/blanc/formes_blancs-07.png'
         text += 'Z';
         printName();
     }
     else {
         reset();
-        btnZ.src = 'aiku/blanc/formes_blancs-06.png'
+        btnZ.src = 'aiku/blanc/formes_blancs-07.png'
         text = '';
         text += 'Z';
         printName();
@@ -156,13 +156,13 @@ btnZ.addEventListener('click', function() {
 
 btn1.addEventListener('click', function() {
     if (text.length < 4) {
-        btn1.src = 'aiku/blanc/formes_blancs-15.png'
+        btn1.src = 'aiku/blanc/formes_blancs-13.png'
         text += '1';
         printName();
     }
     else {
         reset();
-        btn1.src = 'aiku/blanc/formes_blancs-15.png'
+        btn1.src = 'aiku/blanc/formes_blancs-13.png'
         text = '';
         text += '1';
         printName();
@@ -171,13 +171,13 @@ btn1.addEventListener('click', function() {
 
 btn2.addEventListener('click', function() {
     if (text.length < 4) {
-        btn2.src = 'aiku/blanc/formes_blancs-18.png'
+        btn2.src = 'aiku/blanc/formes_blancs-14.png'
         text += '2';
         printName();
     }
     else {
         reset();
-        btn2.src = 'aiku/blanc/formes_blancs-18.png'
+        btn2.src = 'aiku/blanc/formes_blancs-14.png'
         text = '';
         text += '2';
         printName();
@@ -186,13 +186,13 @@ btn2.addEventListener('click', function() {
 
 btn3.addEventListener('click', function() {
     if (text.length < 4) {
-        btn3.src = 'aiku/blanc/formes_blancs-17.png'
+        btn3.src = 'aiku/blanc/formes_blancs-11.png'
         text += '3';
         printName();
     }
     else {
         reset();
-        btn3.src = 'aiku/blanc/formes_blancs-17.png'
+        btn3.src = 'aiku/blanc/formes_blancs-11.png'
         text = '';
         text += '3';
         printName();
@@ -201,13 +201,13 @@ btn3.addEventListener('click', function() {
 
 btn4.addEventListener('click', function() {
     if (text.length < 4) {
-        btn4.src = 'aiku/blanc/formes_blancs-16.png'
+        btn4.src = 'aiku/blanc/formes_blancs-12.png'
         text += '4';
         printName();
     }
     else {
         reset();
-        btn4.src = 'aiku/blanc/formes_blancs-16.png'
+        btn4.src = 'aiku/blanc/formes_blancs-12.png'
         text = '';
         text += '4';
         printName();
@@ -216,13 +216,13 @@ btn4.addEventListener('click', function() {
 
 btn6.addEventListener('click', function() {
     if (text.length < 4) {
-        btn6.src = 'aiku/blanc/formes_blancs-11.png'
+        btn6.src = 'aiku/blanc/formes_blancs-18.png'
         text += '6';
         printName();
     }
     else {
         reset();
-        btn6.src = 'aiku/blanc/formes_blancs-11.png'
+        btn6.src = 'aiku/blanc/formes_blancs-18.png'
         text = '';
         text += '6';
         printName();
@@ -231,13 +231,13 @@ btn6.addEventListener('click', function() {
 
 btn7.addEventListener('click', function() {
     if (text.length < 4) {
-        btn7.src = 'aiku/blanc/formes_blancs-14.png'
+        btn7.src = 'aiku/blanc/formes_blancs-15.png'
         text += '7';
         printName();
     }
     else {
         reset();
-        btn7.src = 'aiku/blanc/formes_blancs-14.png'
+        btn7.src = 'aiku/blanc/formes_blancs-15.png'
         text = '';
         text += '7';
         printName();
@@ -246,13 +246,13 @@ btn7.addEventListener('click', function() {
 
 btn8.addEventListener('click', function() {
     if (text.length < 4) {
-        btn8.src = 'aiku/blanc/formes_blancs-13.png'
+        btn8.src = 'aiku/blanc/formes_blancs-16.png'
         text += '8';
         printName();
     }
     else {
         reset();
-        btn8.src = 'aiku/blanc/formes_blancs-13.png'
+        btn8.src = 'aiku/blanc/formes_blancs-16.png'
         text = '';
         text += '8';
         printName();
@@ -261,13 +261,13 @@ btn8.addEventListener('click', function() {
 
 btn9.addEventListener('click', function() {
     if (text.length < 4) {
-        btn9.src = 'aiku/blanc/formes_blancs-12.png'
+        btn9.src = 'aiku/blanc/formes_blancs-17.png'
         text += '9';
         printName();
     }
     else {
         reset();
-        btn9.src = 'aiku/blanc/formes_blancs-12.png'
+        btn9.src = 'aiku/blanc/formes_blancs-17.png'
         text = '';
         text += '9';
         printName();
@@ -282,25 +282,25 @@ print.innerHTML = '<img src=\'img/'+ text + '.jpg'+ '\' alt=\'image.'+text +'\'>
 }
 
 function reset() {
-    btnA.src = 'aiku/color/formes_color-orange (1).png';
-    btnB.src = 'aiku/color/formes_color-orange (2).png';
-    btnC.src = 'aiku/color/formes_color-orange (3).png';
-    btnD.src = 'aiku/color/formes_color-orange (4).png';
+    btnA.src = 'aiku/color/formes_color-rose (1).png';
+    btnB.src = 'aiku/color/formes_color-rose (2).png';
+    btnC.src = 'aiku/color/formes_color-rose (3).png';
+    btnD.src = 'aiku/color/formes_color-rose (4).png';
 
-    btnW.src = 'aiku/color/formes_color-rose (1).png';
-    btnX.src = 'aiku/color/formes_color-rose (2).png';
-    btnY.src = 'aiku/color/formes_color-rose (3).png';
-    btnZ.src = 'aiku/color/formes_color-rose (4).png';
+    btnW.src = 'aiku/color/formes_color-orange (2).png';
+    btnX.src = 'aiku/color/formes_color-orange (3).png';
+    btnY.src = 'aiku/color/formes_color-orange (4).png';
+    btnZ.src = 'aiku/color/formes_color-orange (1).png';
 
-    btn1.src = 'aiku/color/formes_color-pomme (2).png';
-    btn2.src = 'aiku/color/formes_color-pomme (1).png';
-    btn3.src = 'aiku/color/formes_color-pomme (4).png';
-    btn4.src = 'aiku/color/formes_color-pomme (3).png';
+    btn1.src = 'aiku/color/formes_color-vert (4).png';
+    btn2.src = 'aiku/color/formes_color-vert (1).png';
+    btn3.src = 'aiku/color/formes_color-vert (2).png';
+    btn4.src = 'aiku/color/formes_color-vert (3).png';
 
-    btn6.src = 'aiku/color/formes_color-vert (2).png';
-    btn7.src = 'aiku/color/formes_color-vert (1).png';
-    btn8.src = 'aiku/color/formes_color-vert (4).png';
-    btn9.src = 'aiku/color/formes_color-vert (3).png';
+    btn6.src = 'aiku/color/formes_color-pomme (1).png';
+    btn7.src = 'aiku/color/formes_color-pomme (2).png';
+    btn8.src = 'aiku/color/formes_color-pomme (3).png';
+    btn9.src = 'aiku/color/formes_color-pomme (4).png';
 }
 
 btnDisplay.addEventListener('click', display);

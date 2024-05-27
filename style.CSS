@@ -6,6 +6,10 @@
     font-family: Myriad;
     src: url(./font/MyriadPro-Regular.otf) format('opentype');
 }
+@font-face {
+    font-family: Kaio;
+    src: url(./font/KaioTRIAL-Krilin.otf) format('opentype');
+}
 
 :root{
     --rose: #fe3b9a;
@@ -18,12 +22,13 @@
 
     --font1: 'NHA';
     --font2: 'Myriad';
+    --font: 'Kaio';
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--font1);
+    font-family: var(--font);
 }
 
 body{
@@ -40,65 +45,77 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 85%;
-    height: 85%;
+    align-items: space-between;
+    width: 100%;
+    height: 100%;
     gap:2rem
 }
 
 #left {
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: start;
-    margin-right: 1rem;
+    align-items: center;
     width: 100%;
     height: 100%;
+    font-family: var(--font);
 }
 
+#left-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: var(--font);
+}
+
+#left-left *{
+    margin: 4rem 0;
+}
+
+#left-left h1:nth-child(1){
+    color: var(--rose);
+}
+#left-left h1:nth-child(2){
+    color: var(--orange);
+}
+#left-left h1:nth-child(3){
+    color: var(--vert);
+}
+#left-left h1:nth-child(4){
+    color: var(--pomme);
+}
+
+#left-right{
+    display: grid;
+    grid: repeat(4, 1fr) / repeat(4, 1fr);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+}
 #right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width:20%;
     height: 100%;
-}
-
-#row-sujet,#row-action,#row-comp,#row-adj{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
-}
-
-#row-sujet{
-    color: var(--orange);
-} 
-#row-action{
-    color: var(--rose);
-}
-#row-comp{
-    color: var(--pomme);
-}
-#row-adj{
-    color: var(--vert);
+    padding: 1rem 2rem;
+    background-color: var(--txt);
+    color: var(--bg);
 }
 
 .btn{
-    background-color: var(--bg);
-    color: var(--txt);
-    font-size: 2rem;
-    border: none;
     cursor: pointer;
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 10rem;
 }
 
 .title{
@@ -107,7 +124,6 @@ img{
     width: 40%;
     margin-left: 10px;
 }
-
 
 #btnDisplay{
     background-color: var(--rose);
@@ -132,7 +148,7 @@ img{
 }
 
 
-.loader{
+#loader{
 	background-color: #000000;
 	cursor: wait;
 	height: 100%;
@@ -143,8 +159,9 @@ img{
 	z-index: 9999;
     transition: all 0.5s;
     opacity: 100%;
+    display: none;
 }
-	.loader h1{
+	#loader h1{
 		background: none;
 		border: none;
 		color: #FFFFFF;
