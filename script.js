@@ -305,4 +305,9 @@ function reset() {
 
 btnDisplay.addEventListener('click', display);
 
+let loader = document.getElementById('loader');
+
+loader.style.opacity = '0';
+
+
 });
