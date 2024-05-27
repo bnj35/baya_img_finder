@@ -1,0 +1,134 @@
+@font-face {
+    font-family: NHA;
+    src: url(./font/NHaasGroteskTXPro-Rg.ttf) format('truetype');
+}
+@font-face {
+    font-family: Myriad;
+    src: url(./font/MyriadPro-Regular.otf) format('opentype');
+}
+
+:root{
+    --rose: #fe3b9a;
+    --orange: #fe9955;
+    --vert: #587f00;
+    --pomme: #cae55b;
+
+    --bg: #000000;
+    --txt: #FFFFFF;
+
+    --font1: 'NHA';
+    --font2: 'Myriad';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font1);
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--txt);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 85%;
+    gap:2rem
+}
+
+#left {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-right: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#row-sujet,#row-action,#row-comp,#row-adj{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+}
+
+#row-sujet{
+    color: var(--orange);
+} 
+#row-action{
+    color: var(--rose);
+}
+#row-comp{
+    color: var(--pomme);
+}
+#row-adj{
+    color: var(--vert);
+}
+
+.btn{
+    background-color: var(--bg);
+    color: var(--txt);
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.title{
+    font-size: 3rem;
+    /* border: blue 1px dashed; */
+    width: 40%;
+    margin-left: 10px;
+}
+
+
+#btnDisplay{
+    background-color: var(--rose);
+    color: var(--orange);
+    padding: 2vh 2vw;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    margin: 2rem 0rem;
+}
+
+#row-phrase h2{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+#row-phrase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
