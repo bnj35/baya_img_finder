@@ -313,5 +313,12 @@ function reset() {
 
 btnDisplay.addEventListener('click', display);
 
+
+function PrintElem()
+{
+
+}
+
+
 });
 
