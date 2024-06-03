@@ -322,7 +322,7 @@ function printDivContent() {
     var divElementContents = document.getElementById('print').innerHTML;
     var windows = window.open('', '', 'height=400, width=400');
     windows.document.write('<html>');
-    windows.document.write('<body> <style> body{background-color:#587f00;} img {width: 100%;} h1{color: #cae55b; background-color:#587f00;font-family:Arial, Helvetica, sans-serif; font-size: 3rem;}</style>');
+    windows.document.write('<body>');
     windows.document.write(divElementContents);
     windows.document.write('</body></html>');
     windows.document.close();
