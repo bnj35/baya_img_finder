@@ -318,16 +318,15 @@ btnDisplay.addEventListener('click', ()=>{
 
 });
 
-// function printDivContent() {
-//     var divElementContents = document.getElementById('print').innerHTML;
-//     var windows = window.open('', '', 'height=400, width=400');
-//     windows.document.write('<html>');
-//     windows.document.write('<body>');
-//     windows.document.write(divElementContents);
-//     windows.document.write('</body></html>');
-//     windows.document.close();
-//     windows.print();
-// }
+function printDivContent() {
+    var windows = window.open('', '', 'height=400, width=400');
+    windows.document.write('<html>');
+    windows.document.write('<body>');
+    windows.document.write('<img src=\'img/'+ text + '-card.jpg'+ '\' alt=\'image.'+text +'\'>');
+    windows.document.write('</body></html>');
+    windows.document.close();
+    windows.print();
+}
 
 
 });
