@@ -319,11 +319,12 @@ btnDisplay.addEventListener('click', ()=>{
 });
 
 function printDivContent() {
-    var windows = window.open('', '', 'height=400, width=400');
+    var windows = window.open('', '', 'height=100%, width=100%');
     windows.document.write('<html>');
     windows.document.write('<body>');
+    windows.document.write('<style> img {width: 100%; height: 100%; rotate:90deg;} </style>');
     windows.document.write('<img src=\'img/'+ text + '-card.jpg'+ '\' alt=\'image.'+text +'\'>');
-    windows.document.write('</body></html>');
+    windows.document.write('</style></html>');
     windows.document.close();
     windows.print();
 }
