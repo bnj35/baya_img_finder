@@ -322,7 +322,7 @@ function printDivContent() {
     var windows = window.open('', '', 'height=100%, width=100%');
     windows.document.write('<html>');
     windows.document.write('<body>');
-    // windows.document.write('<style> img {width: 100%; height: 100%;} </style>');
+    windows.document.write('<style> img {width: 1920px; height: 1080px; rotate:90deg;} </style>');
     windows.document.write('<img src=\'img/'+ text + '-card.jpg'+ '\' alt=\'image.'+text +'\'>');
     windows.document.write('</style></html>');
     windows.document.close();
